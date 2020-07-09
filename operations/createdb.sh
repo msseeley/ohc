@@ -1,1 +1,1 @@
-psql -c "create database ohc"
+psql -c "CREATE DATABASE ohc"

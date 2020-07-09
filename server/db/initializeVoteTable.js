@@ -1,10 +1,10 @@
 const db = require('.');
 
-const voteTable = `CREATE TABLE IF NOT EXISTS votes(
-  device_id varchar,
+const voteTable = `CREATE TABLE IF NOT EXISTS votes (
   stripe_token varchar,
-  hair_choice varchar,
-  beard_choice varchar
+  type varchar,
+  choice varchar,
+  date_submitted timestamp with time zone
 );`;
 
 const initializeVoteTable = () => {
