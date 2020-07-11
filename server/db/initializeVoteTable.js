@@ -5,7 +5,7 @@ const voteTable = `CREATE TABLE IF NOT EXISTS votes (
   type varchar,
   choice varchar,
   date_submitted timestamp with time zone
-);`;
+)`;
 
 const initializeVoteTable = () => {
   return db.query(voteTable);

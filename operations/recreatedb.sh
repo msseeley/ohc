@@ -1,0 +1,2 @@
+psql -c "DROP DATABASE IF EXISTS ohc"
+psql -c "CREATE DATABASE ohc"
